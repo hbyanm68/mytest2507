@@ -1,3 +1,5 @@
 public class Mytest{
-	public static void main
+	public static void main(){
+		//哈哈
+	}
 }
