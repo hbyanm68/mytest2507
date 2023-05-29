@@ -1,0 +1,87 @@
+####################################
+2
+# 创建者：pusshamlet.com
+3
+# 客户端：Clash
+4
+# 创建时间：2023-05-29 18:33:17
+5
+# 使用模版：老严 默认模版
+6
+# 节点数量：91
+7
+####################################
+8
+mixed-port: 7890
+9
+allow-lan: true
+10
+log-level: info
+11
+external-controller: 0.0.0.0:9090
+12
+dns:
+13
+  enabled: true
+14
+  nameserver:
+15
+    - 119.29.29.29
+16
+    - 223.5.5.5
+17
+  fallback:
+18
+    - 8.8.8.8
+19
+    - 8.8.4.4
+20
+    - tls://1.0.0.1:853
+21
+    - tls://dns.google:853
+22
+​
+23
+proxies:
+24
+  - {"name":"🇮🇳_老严pusshamlet.com-0529_1","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
+25
+  - {"name":"🇨🇳_老严pusshamlet.com-0529_2","type":"trojan","server":"hk3.microsoft-orgwly.vip","port":443,"udp":true,"password":"ce58cab4-2675-47f7-b3e1-96f08839f86b","skip-cert-verify":true,"network":"tcp"}
+26
+  - {"name":"🇩🇪_老严pusshamlet.com-0529_3","type":"vmess","server":"167.71.38.254","port":21217,"cipher":"auto","uuid":"93471a39-aa3e-4531-9be2-8dbf3b27b809","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+27
+  - {"name":"🇸🇬_老严pusshamlet.com-0529_4","type":"ss","server":"122.248.217.131","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+28
+  - {"name":"🇩🇪_老严pusshamlet.com-0529_5","type":"vmess","server":"167.235.61.163","port":3456,"cipher":"auto","uuid":"68424231-aedd-466b-a171-5571c8183c57","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+29
+  - {"name":"🇮🇷_老严pusshamlet.com-0529_6","type":"vmess","server":"91.107.177.40","port":443,"cipher":"auto","uuid":"5d310e73-c025-4b24-d7e8-2799fe78741e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+30
+  - {"name":"🇩🇪_老严pusshamlet.com-0529_7","type":"vmess","server":"159.69.45.253","port":3456,"cipher":"auto","uuid":"ad8c9ffd-523f-4802-b90d-434ee185d30e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+31
+  - {"name":"🇭🇰_老严pusshamlet.com-0529_8","type":"trojan","server":"hk5.jisuyun.co","port":443,"udp":true,"password":"899e9266-84ae-45dd-9e61-97d276b69539","sni":"tls.jisuyun.co","skip-cert-verify":true,"network":"tcp"}
+32
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_9","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+33
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_10","type":"trojan","server":"us5.jisuyun.co","port":11087,"udp":true,"password":"899e9266-84ae-45dd-9e61-97d276b69539","sni":"tls.jisuyun.co","skip-cert-verify":true,"network":"tcp"}
+34
+  - {"name":"🇯🇵_老严pusshamlet.com-0529_11","type":"ss","server":"54.65.177.216","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+35
+  - {"name":"🇰🇷_老严pusshamlet.com-0529_12","type":"vmess","server":"kr1.jisuyun.co","port":80,"cipher":"auto","uuid":"899e9266-84ae-45dd-9e61-97d276b69539","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"}}
+36
+  - {"name":"🇹🇼_老严pusshamlet.com-0529_13","type":"trojan","server":"tw3.jisuyun.co","port":443,"udp":true,"password":"899e9266-84ae-45dd-9e61-97d276b69539","sni":"tls.jisuyun.co","skip-cert-verify":true,"network":"tcp"}
+37
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_14","type":"vmess","server":"172.64.194.14","port":80,"cipher":"auto","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"lg.v2ray20.xyz"}}}
+38
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_15","type":"trojan","server":"us3.jisuyun.co","port":10085,"udp":true,"password":"899e9266-84ae-45dd-9e61-97d276b69539","sni":"tls.jisuyun.co","skip-cert-verify":true,"network":"tcp"}
+39
+  - {"name":"🇬🇧_老严pusshamlet.com-0529_16","type":"vmess","server":"gb3.jisuyun.co","port":443,"cipher":"auto","uuid":"899e9266-84ae-45dd-9e61-97d276b69539","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"}}
+40
+  - {"name":"🇫🇷_老严pusshamlet.com-0529_17","type":"vmess","server":"fr1.jisuyun.co","port":10059,"cipher":"auto","uuid":"899e9266-84ae-45dd-9e61-97d276b69539","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"}}
+41
+  - {"name":"🇮🇪_老严pusshamlet.com-0529_18","type":"vmess","server":"ie1.jisuyun.co","port":10058,"cipher":"auto","uuid":"899e9266-84ae-45dd-9e61-97d276b69539","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"}}
+42
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_19","type":"vmess","server":"cf.noaries.de","port":2052,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"scw-nl.iiio.wiki"}}}
+43
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_20","type":"vmess","server":"129.146.247.135","port":14631,"cipher":"auto","uuid":"7949f11e-b1d8-4217-b259-9bc2d2af2c25","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+44
+  - {"name":"🇺🇸_老严pusshamlet.com-0529_21","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
